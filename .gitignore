@@ -1,0 +1,37 @@
+# ---- Secrets: never commit these ----
+keystore.properties
+*.jks
+*.keystore
+app/google-services.json
+local.properties
+.env
+*.pem
+
+# ---- Build output ----
+*.iml
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+output-metadata.json
+
+# Release bundle produced by tools/build-release.ps1
+dist/
+
+# ---- Android Studio / IDEs ----
+.idea/
+.kotlin/
+!.idea/codeStyles/
+!.idea/runConfigurations/
+*.hprof
+.DS_Store
+Thumbs.db
+
+# ---- Logs / misc ----
+*.log
+hs_err_pid*
